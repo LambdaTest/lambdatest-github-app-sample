@@ -7,7 +7,7 @@
 **Automate test case generation for your pull requests with AI-native testing**
 
 [![Install App](https://img.shields.io/badge/Install-GitHub%20App-brightgreen?style=for-the-badge&logo=github)](https://github.com/apps/lambdatest-ai-cloud)
-[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/api-doc/)
+[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/api-doc/?key=test-management)
 [![Support](https://img.shields.io/badge/Support-Get%20Help-orange?style=for-the-badge&logo=github)](https://www.lambdatest.com/contact-us)
 
 </div>
