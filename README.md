@@ -170,14 +170,11 @@ graph LR
 
 | Parameter | Description | Required | Example | Type |
 |-----------|-------------|----------|---------|------|
-| `project_id` | Your LambdaTest project identifier | ✅ Yes | `"01K88GEM5X8BDHWWVY819YRJTA"` | String |
-| `folder_id` | Folder ID where tests will be organized | ✅ Yes | `"01K88GFKKP1TDP3AYBP725BW7C"` | String |
-| `assignee` | User ID to assign test runs | ✅ Yes | `1732948` | Number |
-| `environment_id` | Test environment configuration ID | ✅ Yes | `156450` | Number |
+| `project_id` | Your LambdaTest project identifier | ✅ Yes | `"01K88GEM5X8BDHWWVY819YTYVA"` | String |
+| `folder_id` | Folder ID where tests will be organized | ✅ Yes | `"01K88GFKKP1TDP3AYBP725VAPW"` | String |
+| `assignee` | User ID to assign test runs | ✅ Yes | `17398756` | Number |
+| `environment_id` | Test environment configuration ID | ✅ Yes | `156989` | Number |
 | `test_url` | URL of your deployed application | ✅ Yes | `"https://demo.lambdatestinternal.com/"` | String |
-| `use_duplication` | Enable test duplication for reliability | ❌ No | `true` or `false` | Boolean |
-| `template_test_run_id` | Template for duplicating test runs | ❌ No | `"01K8953PEH0M4R7KQKXSSM66PM"` | String |
-
 ---
 
 ## 📊 How to Find Configuration Values
@@ -188,8 +185,8 @@ graph LR
 2. **Navigate** to your project
 3. **Copy the IDs** from the URL or project settings
    ```
-   URL: https://test-manager.lambdatest.com/project/01K88GEM5X8BDHWWVY819YRJTA
-   Project ID: 01K88GEM5X8BDHWWVY819YRJTA
+   URL: https://test-manager.lambdatest.com/project/01K88GEM5X8BDHWWVY819YTYVA
+   Project ID: 01K88GEM5X8BDHWWVY819YTYVA
    ```
 ---
 

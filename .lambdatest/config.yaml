@@ -1,16 +1,12 @@
 # LambdaTest Configuration
 
 # Project and folder configuration
-project_id: "01K8KRJZ59DBFJT0CC605JMQTG"
-folder_id: "01K8KVF6MX3FJAXNRKA23XMA2J"
+project_id: "your_project_id"
+folder_id: "your_folder_id"
 
 # Test Run configuration
-assignee: 1732948
-environment_id: 155636
+assignee: your_user_id
+environment_id: your_environment_id
 
 # Test URL for automation
-test_url: "https://demo.lambdatestinternal.com/"
-
-# Enable test duplication for reliability
-use_duplication: false
-template_test_run_id: "01K8953PEH0M4R7KQKXSSM66PM"
+test_url: "your_test_url"
