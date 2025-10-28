@@ -4,7 +4,7 @@
 
 ![LambdaTest Logo](https://github.com/LambdaTest/lambdatest-github-app-sample/main/lambdatest_logo.svg)
 
-**Automate test case generation for your pull requests with AI-powered testing**
+**Automate test case generation for your pull requests with AI-native testing**
 
 [![Install App](https://img.shields.io/badge/Install-GitHub%20App-brightgreen?style=for-the-badge&logo=github)](https://github.com/apps/lambdatest-ai-cloud)
 [![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/api-doc/)
