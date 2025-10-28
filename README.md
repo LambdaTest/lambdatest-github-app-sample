@@ -272,22 +272,6 @@ We welcome contributions! Here's how you can help:
 3. **📝 Improve Documentation**: Help us make this README better
 4. **🔧 Submit PRs**: Fix bugs or add features
 
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/lambdatest/lambdatest-github-app-sample.git
-
-# Navigate to the project
-cd lambdatest-github-app-sample
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
 ---
 
 ## 📞 Support
