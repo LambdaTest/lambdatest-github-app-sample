@@ -2,13 +2,13 @@
 
 <div align="center">
 
-![LambdaTest Logo](lambdatest_log.png)
+![LambdaTest Logo](lambdatest_logo.svg)
 
 **Automate test case generation for your pull requests with AI-powered testing**
 
 [![Install App](https://img.shields.io/badge/Install-GitHub%20App-brightgreen?style=for-the-badge&logo=github)](https://github.com/apps/lambdatest-ai-cloud)
-[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/docs/)
-[![Support](https://img.shields.io/badge/Support-Get%20Help-orange?style=for-the-badge&logo=github)](https://github.com/lambdatest/lambdatest-github-app-sample/issues)
+[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/docs/getting-started-with-kane-ai/)
+[![Support](https://img.shields.io/badge/Support-Get%20Help-orange?style=for-the-badge&logo=github)](https://www.lambdatest.com/contact-us)
 
 </div>
 
@@ -41,6 +41,8 @@ The **LambdaTest AI Cloud GitHub App** revolutionizes your testing workflow by a
 - **⚡ Real-time Testing**: Instant test execution and reporting
 - **📈 Comprehensive Coverage**: Supports UI, API, and cross-browser testing
 - **🎯 Smart Analysis**: Understands your codebase and generates contextually relevant tests
+
+> **📖 Learn More**: Discover [why KaneAI is transforming test automation](https://www.lambdatest.com/support/docs/why-we-need-kane-ai/) and how it addresses traditional testing challenges.
 
 ---
 
@@ -144,6 +146,8 @@ The `.lambdatest/config.yaml` file is the heart of your LambdaTest integration. 
 2. **Add a Comment** to trigger test generation:
    ```
    @LambdaTest Generate test cases
+   # OR
+   @kaneai Generate test cases
    ```
 3. **Watch the Magic** as LambdaTest analyzes your changes and creates tests
 4. **Review Results** in the PR comments and LambdaTest dashboard
@@ -184,59 +188,17 @@ graph LR
 2. **Navigate** to your project
 3. **Copy the IDs** from the URL or project settings
    ```
-   URL: https://automation.lambdatest.com/project/01K88GEM5X8BDHWWVY819YRJTA
+   URL: https://test-manager.lambdatest.com/project/01K88GEM5X8BDHWWVY819YRJTA
    Project ID: 01K88GEM5X8BDHWWVY819YRJTA
    ```
-
-### 👤 Assignee (User ID)
-
-1. **Go to** your LambdaTest profile settings
-2. **Find** your user ID in the profile section
-3. **Copy** the numeric ID
-
-### 🌍 Environment ID
-
-1. **Navigate** to Settings → Environments
-2. **Select** or create an environment
-3. **Copy** the environment ID from the settings
-
-### 🌐 Test URL
-
-| Environment | URL Format | Example |
-|-------------|------------|---------|
-| **Local Development** | `http://localhost:PORT` | `http://localhost:5174` |
-| **Staging** | `https://staging.yourdomain.com` | `https://staging.example.com` |
-| **Production** | `https://yourdomain.com` | `https://demo.lambdatestinternal.com/` |
-
 ---
-
-## 💡 Example Commands
 
 ### 🎯 Basic Commands
 
 ```bash
 # Generate test cases for the entire PR
 @LambdaTest Generate test cases
-
-# Generate specific test types
-@LambdaTest Generate UI test cases
-@LambdaTest Generate API test cases
-
-# Run existing tests
-@LambdaTest Run tests
-```
-
-### 🔧 Advanced Commands
-
-```bash
-# Generate tests for specific files
-@LambdaTest Generate test cases for src/components/Button.js
-
-# Run tests with specific configuration
-@LambdaTest Run tests with environment=staging
-
-# Generate and run tests
-@LambdaTest Generate and run test cases
+@kaneai Generate test cases
 ```
 
 ### 📝 Comment Examples
@@ -248,6 +210,8 @@ graph LR
 ## 🧪 Test Generation Request
 
 @LambdaTest Generate test cases
+# OR
+@kaneai Generate test cases
 
 **Changes in this PR:**
 - Added new user authentication flow
