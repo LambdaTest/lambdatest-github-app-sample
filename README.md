@@ -171,7 +171,7 @@ graph LR
 
 ## 🔧 Configuration Parameters
 
-> **📚 API Reference**: All configuration IDs (`project_id`, `folder_id`, `assignee`, `environment_id`) can be found in the [LambdaTest API Documentation](https://www.lambdatest.com/support/api-doc/). Use the Test Manager API endpoints to retrieve these values.
+> **📚 API Reference**: All configuration IDs (`project_id`, `folder_id`, `assignee`, `environment_id`) can be found in the [LambdaTest API Documentation](https://www.lambdatest.com/support/api-doc/?key=test-management). Use the Test Manager API endpoints to retrieve these values.
 
 | Parameter | Description | Required | Example | Type |
 |-----------|-------------|----------|---------|------|
