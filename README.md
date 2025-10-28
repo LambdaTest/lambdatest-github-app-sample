@@ -7,7 +7,7 @@
 **Automate test case generation for your pull requests with AI-powered testing**
 
 [![Install App](https://img.shields.io/badge/Install-GitHub%20App-brightgreen?style=for-the-badge&logo=github)](https://github.com/apps/lambdatest-ai-cloud)
-[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/docs/getting-started-with-kane-ai/)
+[![Documentation](https://img.shields.io/badge/Documentation-Read%20More-blue?style=for-the-badge&logo=gitbook)](https://www.lambdatest.com/support/api-doc/)
 [![Support](https://img.shields.io/badge/Support-Get%20Help-orange?style=for-the-badge&logo=github)](https://www.lambdatest.com/contact-us)
 
 </div>
@@ -168,6 +168,8 @@ graph LR
 
 ## 🔧 Configuration Parameters
 
+> **📚 API Reference**: All configuration IDs (`project_id`, `folder_id`, `assignee`, `environment_id`) can be found in the [LambdaTest API Documentation](https://www.lambdatest.com/support/api-doc/). Use the Test Manager API endpoints to retrieve these values.
+
 | Parameter | Description | Required | Example | Type |
 |-----------|-------------|----------|---------|------|
 | `project_id` | Your LambdaTest project identifier | ✅ Yes | `"01K88GEM5X8BDHWWVY819YTYVA"` | String |
@@ -179,6 +181,8 @@ graph LR
 
 ## 📊 How to Find Configuration Values
 
+> **💡 Pro Tip**: For programmatic access to these values, use the [LambdaTest API Documentation](https://www.lambdatest.com/support/api-doc/) with Test Manager endpoints.
+
 ### 🔍 Project ID & Folder ID
 
 1. **Log into** [LambdaTest Dashboard](https://accounts.lambdatest.com/login)
@@ -188,6 +192,7 @@ graph LR
    URL: https://test-manager.lambdatest.com/project/01K88GEM5X8BDHWWVY819YTYVA
    Project ID: 01K88GEM5X8BDHWWVY819YTYVA
    ```
+4. **API Method**: Use `GET /test-manager/projects` endpoint to retrieve project and folder IDs programmatically
 ---
 
 ### 🎯 Basic Commands
