@@ -102,9 +102,6 @@ environment_id: 78901
 # Test URL for automation
 test_url: "https://demo.lambdatestinternal.com/"
 
-# Enable test duplication for reliability (optional)
-use_duplication: true
-template_test_run_id: "your_template_run_id"
 ```
 
 ### Step 3: Start Testing
@@ -115,7 +112,7 @@ Create a pull request and add a comment:
 @LambdaTest Generate test cases
 ```
 
-🎉 **That's it!** The LambdaTest bot will automatically analyze your changes and generate comprehensive test cases.
+🎉 **That's it!** The LambdaTest App will automatically analyze your changes and generate comprehensive test cases.
 
 ---
 
