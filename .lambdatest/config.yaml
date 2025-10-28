@@ -1,0 +1,12 @@
+# LambdaTest Configuration
+
+# Project and folder configuration
+project_id: "your_project_id"
+folder_id: "your_folder_id"
+
+# Test Run configuration
+assignee: your_user_id
+environment_id: your_environment_id
+
+# Test URL for automation
+test_url: "your_test_url"
