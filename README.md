@@ -23,7 +23,6 @@
 - [📖 Usage Guide](#-usage-guide)
 - [🔧 Configuration Parameters](#-configuration-parameters)
 - [📊 How to Find Configuration Values](#-how-to-find-configuration-values)
-- [💡 Example Commands](#-example-commands)
 - [✅ Verification Steps](#-verification-steps)
 - [🤝 Contributing](#-contributing)
 - [📞 Support](#-support)
