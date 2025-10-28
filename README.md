@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LambdaTest Logo](lambdatest_logo.svg)
+![LambdaTest Logo](https://raw.githubusercontent.com/LambdaTest/lambdatest-github-app-sample/main/lambdatest_logo.svg)
 
 **Automate test case generation for your pull requests with AI-powered testing**
 
