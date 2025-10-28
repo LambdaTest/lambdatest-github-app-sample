@@ -149,7 +149,12 @@ The `.lambdatest/config.yaml` file is the heart of your LambdaTest integration. 
    # OR
    @kaneai Generate test cases
    ```
-3. **Watch the Magic** as LambdaTest analyzes your changes and creates tests
+3. **Watch the Magic** as LambdaTest:
+   - Analyzes your code changes
+   - Generates relevant test cases
+   - Identifies similar existing test cases
+   - Combines all tests for comprehensive coverage
+   - Runs the complete test suite
 4. **Review Results** in the PR comments and LambdaTest dashboard
 
 ### 🔄 Workflow Integration
@@ -159,9 +164,11 @@ graph LR
     A[Create PR] --> B[Add Comment]
     B --> C[LambdaTest Analyzes Code]
     C --> D[Generates Test Cases]
-    D --> E[Runs Tests]
-    E --> F[Reports Results]
-    F --> G[PR Updated with Results]
+    D --> E[Identifies Similar Test Cases]
+    E --> F[Combines All Tests]
+    F --> G[Runs Tests]
+    G --> H[Reports Results]
+    H --> I[PR Updated with Results]
 ```
 
 ---
@@ -181,7 +188,8 @@ graph LR
 
 ## 📊 How to Find Configuration Values
 
-> **💡 Pro Tip**: For programmatic access to these values, use the [LambdaTest API Documentation](https://www.lambdatest.com/support/api-doc/) with Test Manager endpoints.
+### 💡 Pro Tip
+**For programmatic access to these values, use the [LambdaTest API Documentation](https://www.lambdatest.com/support/api-doc/) with Test Manager endpoints.**
 
 ### 🔍 Project ID & Folder ID
 
