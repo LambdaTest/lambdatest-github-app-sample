@@ -109,7 +109,7 @@ test_url: "https://demo.lambdatestinternal.com/"
 Create a pull request and add a comment:
 
 ```
-@LambdaTest Generate test cases
+@LambdaTest Validate this PR
 ```
 
 🎉 **That's it!** The LambdaTest App will automatically analyze your changes and generate comprehensive test cases.
@@ -141,6 +141,8 @@ The `.lambdatest/config.yaml` file is the heart of your LambdaTest integration. 
 1. **Create a Pull Request** with your code changes
 2. **Add a Comment** to trigger test generation:
    ```
+   @LambdaTest Validate this PR
+   # OR
    @LambdaTest Generate test cases
    # OR
    @kaneai Generate test cases
