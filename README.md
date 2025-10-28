@@ -279,7 +279,7 @@ We welcome contributions! Here's how you can help:
 ### 🆘 Need Help?
 
 - **📚 Documentation**: [LambdaTest Support Docs](https://www.lambdatest.com/support/docs/)
-- **💬 Community**: [GitHub Discussions](https://github.com/lambdatest/lambdatest-github-app-sample/discussions)
+- **💬 Community**: [LambdaTest Community](https://community.lambdatest.com/)
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/lambdatest/lambdatest-github-app-sample/issues)
 - **📧 Email Support**: [support@lambdatest.com](mailto:support@lambdatest.com)
 
